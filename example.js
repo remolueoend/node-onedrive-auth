@@ -1,8 +1,8 @@
 var path = require('path');
 
 var auth = require('./lib/index').AuthProvider({
-	clientId: '0000000048150D2D',
-	clientSecret: 'hG9BZpcd3tkiHCmfDp-HvvAfJa2yaRFj',
+	clientId: 'client_id',
+	clientSecret: 'client_secret',
 	scope: ['wl.signin', 'wl.offline_access', 'onedrive.readwrite'],
 	flow: 'code',
 	port: 52763,
